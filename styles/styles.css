@@ -1,11 +1,17 @@
-body {
-  background: #fafafa;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
   margin: 0px;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #fafafa;
 }
 
 .container {
-  width: 620px;
+  width: 640px;
   background: rgb(255, 255, 255);
   display: flex;
   align-items: center;
@@ -46,4 +52,42 @@ body {
   text-align: center;
   margin: 0;
   padding-bottom: 20px;
+}
+
+.post {
+  display: block;
+  border: 1px solid #c4c4c4;
+  margin-top: 30px;
+  height: 811px;
+}
+
+.head_of_post {
+  padding: 10px 0 10px 24px;
+  align-items: center;
+  display: flex;
+}
+
+.logo_post {
+  height: 36px;
+  width: 36px;
+  box-sizing: unset;
+  padding-right: 16px;
+}
+
+.like {
+  display: flex;
+  padding: 24px 0 8px 24px;
+  align-items: center;
+}
+.like h4 {
+  padding-left: 16px;
+}
+
+.comments {
+  display: flex;
+  padding: 8px 0 24px 24px;
+  align-items: center;
+}
+.comments p {
+  padding-left: 16px;
 }
